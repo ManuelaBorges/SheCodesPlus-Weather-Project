@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheCodes+ Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d704b72d66.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+<body>
+    <section class="weatherApp">
+        <div class="container">
+            <form class="city" id="city-form">
+                <input type="text" placeholder="Enter your city" id="input-city">
+               <button class="search"><i class="fas fa-search magnifier-icon"></i></button>
+               <button class="location" id="geolocation" ><i class="fas fa-globe-americas globe-icon"></i></button>
+               <span class="unitsButton" > <a href="#" class="celsiusLink" id="celsius-link"> ºC</a> | <a href="#" class="fahrenheitLink" id="fahrenheit-link"> ºF</a></span>
+                
+            </form>
+
+        <h5>What's your city? 🌍</h5>
+
+        <div class="row">
+        <h1 class="col-5">☀ <span class="temperatureMax" id="max-temp">27</span>ºC</h1>
+        <h2 class="col-7" id="date">DiaSemana, Dia de Mês de Ano</h2>
+        </div>
+    
+        <div class="row">
+        <h3 class="col">☁ <span class="temperatureMin" id="min-temp">9</span>ºC</h3>
+        <h4 class="col"><span id="wind-speed"></span>2</span> m/s | 🌧 <span id="humidity" >2</span>%</h4>
+        </div>
+    
+        <div class="row days">
+        <div class="col">mon</div>
+        <div class="col">tue</div>
+        <div class="col">wed</div>
+        <div class="col">thu</div>
+        <div class="col">fri</div>
+    </div>
+    <div class="row temp">
+        <div class="col">☀ 20ºC/9º</div>
+        <div class="col">🌤 18ºC/8º</div>
+        <div class="col">☀ 21ºC/10º</div>
+        <div class="col">☀ 23ºC/10º</div>
+        <div class="col">☀ 23ºC/9º</div>
+    </div>
+    </div>
+    </section>
+
+    <p>Coded by Manuela Borges <i class="fas fa-feather-alt"></i></p>
+
+    <script src="C:\Users\manue\OneDrive\03. Formação\04. SheCodes\0. GitHub\SheCodes-Plus-Project\src\script.js"></script>
+
+    
+</body>
+</html>
